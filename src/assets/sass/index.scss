@@ -154,3 +154,26 @@ p.see-all:hover {
     text-align: center;
   }
 }
+
+// auth
+.form-control {
+  padding: 1.375rem 0.75rem;
+  background-color: #F5F5F5;
+} 
+.login-btn {
+  background-color: #F91944;
+  color: #fff;
+  padding: 10px 0;
+}
+.no-account a {
+  color: #F91944;
+} 
+.sign-up-btn {
+	background-color: #F91944;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.has-account a {
+	color: #F91944;
+}

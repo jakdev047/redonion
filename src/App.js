@@ -14,6 +14,8 @@ import Header from './components/Header/Header';
 import Home from './views/Home';
 import Error from './views/Error';
 import SingleFoodItem from './views/SingleFoodItem';
+import SignUp from './auth/SignUp/SignUp';
+import Login from './auth/Login/Login';
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/foods/:id" component={SingleFoodItem}></Route>
+            <Route exact path="/signup" component={SignUp} />  
+            <Route exact path="/login" component={Login} /> 
             <Route path="*" component={Error}></Route>
           </Switch>
         </div>

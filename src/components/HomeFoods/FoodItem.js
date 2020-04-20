@@ -13,7 +13,7 @@ const FoodItem = ({item}) => {
                 </Link>
                 <div className="card-body">
                     <h5 className="card-title">
-                      <Link>
+                      <Link to={`/foods/${id}`}>
                         {title}
                       </Link>
                     </h5>

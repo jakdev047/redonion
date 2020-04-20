@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +12,7 @@ const Header = () => {
         <div className="row d-flex align-items-center justify-content-between">
           <div className="col">
             <div className="head-logo">
-              <a href="//"><img src={logo} alt="hot onion" /></a>
+              <Link to="/"><img src={logo} alt="hot onion" /></Link>
             </div>
           </div>
           <div className="col">
