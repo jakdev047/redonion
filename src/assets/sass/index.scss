@@ -1,6 +1,6 @@
 // color
 $primaryColor: #1a1d1c;
-$secondaryColor: #da0839;
+$secondaryColor: #e51a4b;
 
   
 .btn:hover {
@@ -58,10 +58,6 @@ input:focus {
 }
 .checkout-btn:hover {
   color: #fff;
-}
-.active {
-  border-bottom: 2px solid #e51a4b;
-  color: #e51a4b;
 }
 .btn:focus {
   outline: none !important;
@@ -128,4 +124,24 @@ p.see-all:hover {
 }
 .signup-btn:hover {
 	color: #fff;
+}
+
+// home-tab
+.home-tab {
+  .nav-tabs {
+    border-bottom: 1px solid transparent;
+    max-width: 260px;
+    margin: 30px auto;
+  }
+
+  .nav-link {
+    cursor: pointer;
+    &:focus,&:hover,&.active {
+      border-color: transparent;
+      color: $secondaryColor;
+    }
+    &.active {
+      border-bottom: transparent;
+    }
+  }
 }

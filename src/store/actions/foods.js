@@ -1,4 +1,4 @@
-import { SET_FOOD_ITEMS } from "./types";
+import { SET_FOOD_ITEMS} from "./types";
 
 export const setFoods = foods => {
   return {

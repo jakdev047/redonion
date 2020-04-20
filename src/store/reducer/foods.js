@@ -1,4 +1,4 @@
-import { SET_FOOD_ITEMS } from "../actions/types";
+import { SET_FOOD_ITEMS} from "../actions/types";
 
 const init = {
   foods: [
