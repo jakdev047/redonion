@@ -145,3 +145,12 @@ p.see-all:hover {
     }
   }
 }
+
+// error-section
+.error-section {
+  h2 {
+    color: $secondaryColor;
+    font-size: 78px;
+    text-align: center;
+  }
+}
